@@ -22,7 +22,9 @@
   </div>
   <h2 class="sub-title">Q3</h2>
   <div class="question">
+
     <div class="btn" id="q3">Q3</div>
+    
   </div>
   <h2 class="sub-title">Q4</h2>
   <div class="question">
@@ -78,6 +80,8 @@ $('#q6').find('li').click(function() {
   console.log(targetNum);
   alert(targetNum);
 });
+console.log($('#q6').find('li'));
+
 // 第7問  id='q7'の要素をクリックしたらこの要素に設定してあるdata属性をconsoleに表示せよ。
 $('#q7').click(function() {
   var text = $(this).data('text');
