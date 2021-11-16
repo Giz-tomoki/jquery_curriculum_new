@@ -106,14 +106,14 @@
           var listChild = $('.list').children();
           $(listChild).hide().each(function(){
             var dataType = $(this).data('category-type');
-            if (selectVal==='all') {
+            if (selectVal === 'all') {
               $(listChild).show();
-            } else if(selectVal===dataType) {
+            } else if(selectVal === dataType) {
               $(this).show();
             }
           });
         });
-        
+
       })
     </script>
   </body>
